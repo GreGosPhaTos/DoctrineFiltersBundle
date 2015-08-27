@@ -15,7 +15,10 @@
         "doctrine/orm": "~2.2,>=2.2.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.1.*"
+        "phpunit/phpunit": "4.1.*",
+        "phpmd/phpmd": "@stable",
+        "squizlabs/php_codesniffer": "2.*",
+        "fabpot/php-cs-fixer": "^1.10"
     },
     "autoload": {
         "psr-0": {
