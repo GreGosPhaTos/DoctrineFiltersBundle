@@ -21,7 +21,7 @@ class RecordStateFilter extends SQLFilter implements AnnotationReaderAwareInterf
         }
 
         // The Doctrine filter is called for any query on any entity
-        // Check if the current entity is "user aware" (marked with an annotation)
+        // Check if the current entity is "active" (marked with an annotation)
         $recordState = $this->reader->getClassAnnotation(
             $targetEntity->getReflectionClass(),
             'GreGosPhaTos\\DoctrineFiltersBundle\\Doctrine\\Annotation\\RecordState'
