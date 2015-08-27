@@ -13,7 +13,9 @@ services:
   - mongodb
 
 before_script:
+  - phpenv config-add travis-php.ini
   - composer self-update
-  - composer install
+  - composer require doctrine/mongodb:1.2.0 --no-update
+  - composer update --dev
 
 script: phpunit
