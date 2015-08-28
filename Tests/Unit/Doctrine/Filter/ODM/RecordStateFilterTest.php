@@ -29,7 +29,7 @@ class RecordStateFilterTest extends \PHPUnit_Framework_TestCase
 
         $this->mockClassMetadata = $this->getMockBuilder('Doctrine\ODM\MongoDB\Mapping\ClassMetaData')
             ->disableOriginalConstructor()
-            ->setMethods(['getReflectionClass'])
+            ->setMethods(array('getReflectionClass'))
             ->getMock();
 
         $this->mockDM = $this->getMockBuilder('Doctrine\ODM\MongoDB\DocumentManager')
