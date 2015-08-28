@@ -9,7 +9,7 @@ DoctrineFiltersBundle provides integration for [DoctrineFilters](http://doctrine
  
 ### Record state filter
 
-This filter is really usefull for all db recorset that need to be statued (active, inactive).
+This filter is really usefull for all db recordset that need to be statued (active, inactive).
 Available for Doctrine ORM and Doctrine mongo ODM : 
 
 in your config.yml : 
