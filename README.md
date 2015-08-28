@@ -1,5 +1,7 @@
 # Overview
 [![Build Status](https://travis-ci.org/GreGosPhaTos/DoctrineFiltersBundle.svg)](https://travis-ci.org/GreGosPhaTos/DoctrineFiltersBundle)
+[![Latest Stable Version](https://poser.pugx.org/gregosphatos/doctrine-filters-bundle/v/stable)](https://packagist.org/packages/gregosphatos/doctrine-filters-bundle) [![Total Downloads](https://poser.pugx.org/gregosphatos/doctrine-filters-bundle/downloads)](https://packagist.org/packages/gregosphatos/doctrine-filters-bundle) [![Latest Unstable Version](https://poser.pugx.org/gregosphatos/doctrine-filters-bundle/v/unstable)](https://packagist.org/packages/gregosphatos/doctrine-filters-bundle) [![License](https://poser.pugx.org/gregosphatos/doctrine-filters-bundle/license)](https://packagist.org/packages/gregosphatos/doctrine-filters-bundle)
+
 
 DoctrineFiltersBundle provides integration for [DoctrineFilters](http://doctrine-orm.readthedocs.org/en/latest/reference/filters.html) for your Symfony2 Project.
 
