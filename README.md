@@ -5,6 +5,28 @@
 
 DoctrineFiltersBundle provides integration for [DoctrineFilters](http://doctrine-orm.readthedocs.org/en/latest/reference/filters.html) for your Symfony2 Project.
 
+# Installation
+
+### With composer :
+
+Install composer on Linux / Mac OS
+```
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+```
+
+To install composer on Windows download the installer from [getcomposer.org/download](https://getcomposer.org/download/), execute it and follow the instructions.
+
+[Composer documentation](https://getcomposer.org/doc/)
+
+Add this on your composer.json
+
+```json
+"require": {
+    "gregosphatos/doctrine-filters-bundle": "~1.0"
+}
+```
+
 # Documentation
  
 ### Record state filter
