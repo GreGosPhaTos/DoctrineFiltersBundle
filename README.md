@@ -85,7 +85,6 @@ services:
 Change your entities or documents : 
 
 ```php
-
 use GreGosPhaTos\DoctrineFiltersBundle\Doctrine\Annotation\RecordState;
 
 /**
